@@ -9,19 +9,19 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logoContainer}>
-        <Image src={logo} alt='Logo' width={40} style={{cursor: 'pointer'}} onClick={undefined}/>
+        <Image src={logo} alt='Logo' width={40} style={{cursor: 'pointer'}} onClick={() => window.open('/', '_self')}/>
       </div>
 
       <div className={styles.navigationContainer}>
-        <div className={styles.link}>Project</div>
-        <div className={styles.link}>Roadmap</div>
-        <div className={styles.link}>Team</div>
-        <div className={styles.link}>Gallery</div>
-        <div className={styles.link}>Community</div>
+        <a className={styles.link}>Project</a>
+        <a className={styles.link}>Roadmap</a>
+        <a className={styles.link}>Team</a>
+        <a className={styles.link}>Gallery</a>
+        <a className={styles.link}>Community</a>
       </div>
 
       <div className={styles.connectionsContainer}>
-        <div className={styles.dcButton}>
+        <div className={styles.dcButton} onClick={() => window.open('https://discord.gg/qRKn7fAeP6', '_blank')}>
           <Image src={discord} alt='Discord' width={30}/>
         </div>
 

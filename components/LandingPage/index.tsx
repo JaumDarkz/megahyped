@@ -1,9 +1,13 @@
+import Hero from '../Hero'
+import Navbar from '../Navbar'
+
 import styles from './styles.module.scss'
 
 const LandingPage = () => {
   return (
-    <div>
-      
+    <div className={styles.container}>
+      <Navbar />
+      <Hero />
     </div>
   )
 }
