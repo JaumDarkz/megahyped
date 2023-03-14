@@ -29,6 +29,11 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-left: calc(-250px / 2);
+
+    @media (max-width: 922px) {
+      margin-left: 0;
+    }
 
     .dcButton {
       height: 40px;
@@ -50,7 +55,7 @@
       display: flex;
       align-items: center;
       cursor: pointer;
-      padding: 0px 24px;
+      padding: 0px 30px;
       border-radius: 3px;
       background: #5A5A5A4D;
       transition: 0.4s;

@@ -21,6 +21,7 @@
       .widthContainer {
         width: 100%;
         transform: scale(1.2);
+        animation: logoAnimation 2.5s ease-in-out infinite;
 
         > div {
           position: unset !important;
@@ -45,8 +46,9 @@
       z-index: 1;
 
       .widthContainer {
-        width: 80%;
+        width: 75%;
         margin-bottom: 80px;
+        animation: mintAnimation 2s ease-in;
 
         > div {
           position: unset !important;
@@ -98,5 +100,29 @@
         }
       }
     }
+  }
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(1.14);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes mintAnimation {
+  0% {
+    transform: translateX(340px);
+  }
+
+  100% {
+    transform: translateX(0px);
   }
 }
