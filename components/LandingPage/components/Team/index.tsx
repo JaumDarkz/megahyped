@@ -9,7 +9,7 @@ import koroshy from './assets/koroshy.webp'
 import igu from './assets/igu.webp'
 
 import jaumTitle from './assets/jaumtitle.svg'
-import thaurinosTitle from './assets/thaurinostitle.svg'
+import thaurinostitle from './assets/thaurinostitle.svg'
 import nataTitle from './assets/natatitle.svg'
 import koroshyTitle from './assets/koroshytitle.svg'
 import iguTitle from './assets/igutitle.svg'
@@ -32,7 +32,7 @@ const Team = () => {
 
             <div className={styles.title}>
               <div className={styles.title}>
-                <Image src={thaurinosTitle} alt='Title'  width={120} />
+                <Image src={thaurinostitle} alt='Title'  width={120} />
               </div>
 
               <div className={styles.secondaryTitle}>Dev - Blockchain</div>
