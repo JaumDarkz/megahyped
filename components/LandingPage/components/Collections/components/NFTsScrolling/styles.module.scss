@@ -1,0 +1,20 @@
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-110.45%);
+  }
+}
+
+.carousel {
+  display: flex;
+  width: calc(10% * 32);
+  animation: carousel 10s linear infinite;
+  
+  img {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+  }
+}
