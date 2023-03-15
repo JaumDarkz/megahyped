@@ -15,23 +15,6 @@ import nft12 from './assets/12nft.svg'
 import nft13 from './assets/13nft.svg'
 import nft14 from './assets/14nft.svg'
 import nft15 from './assets/15nft.svg'
-import nft16 from './assets/16nft.svg'
-import nft17 from './assets/17nft.svg'
-import nft18 from './assets/18nft.svg'
-import nft19 from './assets/19nft.svg'
-import nft20 from './assets/20nft.svg'
-import nft21 from './assets/21nft.svg'
-import nft22 from './assets/22nft.svg'
-import nft23 from './assets/23nft.svg'
-import nft24 from './assets/24nft.svg'
-import nft25 from './assets/25nft.svg'
-import nft26 from './assets/26nft.svg'
-import nft27 from './assets/27nft.svg'
-import nft28 from './assets/28nft.svg'
-import nft29 from './assets/29nft.svg'
-import nft30 from './assets/30nft.svg'
-import nft31 from './assets/31nft.svg'
-import nft32 from './assets/32nft.svg'
 
 import Image from 'next/image'
 
@@ -53,23 +36,6 @@ const NFTsScrolling = () => {
     nft13,
     nft14,
     nft15,
-    nft16,
-    nft17,
-    nft18,
-    nft19,
-    nft20,
-    nft21,
-    nft22,
-    nft23,
-    nft24,
-    nft25,
-    nft26,
-    nft27,
-    nft28,
-    nft29,
-    nft30,
-    nft31,
-    nft32
   ]
 
   return (

@@ -3,14 +3,14 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-110.45%);
+    transform: translateX(-100%);
   }
 }
 
 .carousel {
   display: flex;
-  width: calc(10% * 32);
-  animation: carousel 10s linear infinite;
+  width: calc(10% * 13.5);
+  animation: carousel 8s linear infinite;
   
   img {
     width: 100%;
