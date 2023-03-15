@@ -14,20 +14,19 @@
       justify-content: center;
 
       .titleContainer {
-        display: flex;
-        flex-direction: column;
-
+        padding-top: 40px;
+        text-align: center;
+        z-index: 1;
+    
         .title {
-          font-size: 25px;
           color: #E72A70;
+          font-size: 22px;
           font-weight: 700;
-          text-align: center;
         }
-
+    
         .secondaryTitle {
-          font-size: 60px;
+          font-size: 42px;
           font-weight: 700;
-          text-align: center;
         }
       }
     }

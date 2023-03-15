@@ -20,16 +20,17 @@
     align-items: center;
 
     .titleContainer {
-      margin-top: 50px;
+      padding-top: 35px;
       text-align: center;
       z-index: 1;
-
+      padding-bottom: 20px;
+  
       .title {
         color: #303030;
         font-size: 22px;
         font-weight: 700;
       }
-
+  
       .secondaryTitle {
         font-size: 42px;
         font-weight: 700;

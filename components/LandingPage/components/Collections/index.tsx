@@ -44,7 +44,7 @@ const Collections = () => {
           <NFTsScrolling />
         </div>
 
-        <div className={styles.titleContainer} style={{marginTop: '-40px'}}>
+        <div className={styles.titleContainer} style={{marginTop: '-60px'}}>
           <div className={styles.title}>
             EASY STEPS
           </div>

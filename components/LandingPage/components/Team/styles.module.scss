@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  padding-bottom: 350px;
+  background: linear-gradient(180deg, rgba(48, 48, 49, 0) 0%, #1C1C1C 100%);;
+
+  .titleContainer {
+    padding-top: 100px;
+    text-align: center;
+    z-index: 1;
+
+    .title {
+      color: #E72A70;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .secondaryTitle {
+      font-size: 42px;
+      font-weight: 700;
+    }
+  }
+}
