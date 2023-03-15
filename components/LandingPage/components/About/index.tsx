@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from './styles.module.scss'
 
 import mHRobot from './assets/megahyped.webp'
+import robotShadow from './assets/'
 
 const About = () => {
   return (

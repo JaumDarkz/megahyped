@@ -25,7 +25,6 @@ const Slider = () => {
       <div className={styles.grid}>
       <Swiper
       slidesPerView={3}
-      spaceBetween={30}
       initialSlide={3}
       loop={false}
       autoplay={{ delay: 8000 }}
@@ -59,7 +58,7 @@ const Slider = () => {
           </SwiperSlide>
 
           <SwiperSlide>            
-            <RoadmapCard title={title} secondaryTitle={secondaryTitle7} text='The Mega Hyped team is committed to giving its members access to high-quality projects. However, we can not guarantee that incubated projects strictly carry on their Roadmap according to their initial proposal.Suppose we identify that a project is going Rouge and do not honor its promises regarding NFT utility, Roadmap, or Tokenomics. We will open to holders that have held a Mega Hyped NFT for at least three months, a time window where they can burn an incubated NFT and get back an amount of MHT Tokens according to a rate predefined by the Mega Hyped DAO in advance.' />
+            <RoadmapCard title={title} secondaryTitle={secondaryTitle7} text='The Mega Hyped team is committed to giving its members access to high-quality projects. However, we can not guarantee that incubated projects strictly carry on their Roadmap according to their initial proposal. Suppose we identify that a project is going Rouge and do not honor its promises regarding NFT utility, Roadmap, or Tokenomics. We will open to holders that have held a Mega Hyped NFT for at least three months, a time window where they can burn an incubated NFT and get back an amount of MHT Tokens according to a rate predefined by the Mega Hyped DAO in advance.' />
           </SwiperSlide>
         </Swiper>
       </div>

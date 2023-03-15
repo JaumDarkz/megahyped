@@ -13,11 +13,11 @@ const Navbar = () => {
       </div>
 
       <div className={styles.navigationContainer}>
-        <a className={styles.link}>Project</a>
-        <a className={styles.link}>Roadmap</a>
-        <a className={styles.link}>Team</a>
-        <a className={styles.link}>Gallery</a>
-        <a className={styles.link}>Community</a>
+        <a className={styles.link} href='#project'>Project</a>
+        <a className={styles.link} href='#roadmap'>Roadmap</a>
+        <a className={styles.link} href='#team'>Team</a>
+        <a className={styles.link} href='#gallery'>Gallery</a>
+        <a className={styles.link} href='#community'>Community</a>
       </div>
 
       <div className={styles.connectionsContainer}>

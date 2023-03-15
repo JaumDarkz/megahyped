@@ -1,6 +1,9 @@
 .container {
   width: 100%;
-  padding-bottom: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 200px;
   background: linear-gradient(180deg, rgba(48, 48, 49, 0) 0%, #1C1C1C 100%);;
 
   .titleContainer {
@@ -17,6 +20,38 @@
     .secondaryTitle {
       font-size: 42px;
       font-weight: 700;
+    }
+  }
+
+  .teamGrid {
+    width: 80%;
+    max-width: 1366px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+
+    .member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+
+  .teamGrid2 {
+    width: 50%;
+    max-width: 1366px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+
+    .member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 22px;
     }
   }
 }

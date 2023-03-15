@@ -11,13 +11,33 @@ import styles from './styles.module.scss'
 const LandingPage = () => {
   return (
     <div className={styles.container}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Collections />
-      <Roadmap />
-      <Team />
-      <Footer />
+      <div id='navbar'>
+        <Navbar />
+      </div>
+
+      <div id='hero'>
+        <Hero />
+      </div>
+
+      <div id='project'>
+        <About />
+      </div>
+
+      <div id='gallery'>
+        <Collections />
+      </div>
+
+      <div id='roadmap'>
+        <Roadmap />
+      </div>
+
+      <div id='team'>
+        <Team />
+      </div>
+
+      <div id='community'>
+        <Footer />
+      </div>
     </div>
   )
 }
