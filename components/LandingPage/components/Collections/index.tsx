@@ -111,7 +111,7 @@ const Collections = () => {
             </div>
 
             <div className={styles.button}>
-              Wishlist Now
+              Join Whitelist
             </div>
           </div>
         </div>
