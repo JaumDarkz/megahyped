@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logoContainer}>
-        <Image src={logo} alt='Logo' width={40} style={{cursor: 'pointer'}} onClick={() => window.open('/', '_self')}/>
+        <Image src={logo} alt='Logo' width={40} style={{cursor: 'pointer'}} onClick={() => window.open('#', '_self')}/>
       </div>
 
       <div className={styles.navigationContainer}>

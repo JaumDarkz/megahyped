@@ -25,9 +25,9 @@ const Slider = () => {
       <div className={styles.grid}>
       <Swiper
       slidesPerView={3}
-      initialSlide={3}
-      loop={false}
-      autoplay={{ delay: 8000 }}
+      initialSlide={1}
+      loop={true}
+      autoplay={{ delay: 10000 }}
       navigation={false}
       direction='horizontal'
       grabCursor={true}
