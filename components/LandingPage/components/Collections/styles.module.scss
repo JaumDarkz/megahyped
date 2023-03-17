@@ -39,7 +39,7 @@
     .carouselContainer {
       display: flex;
       flex-direction: column;
-      margin-top: -60px;
+      margin-top: -40px;
       z-index: 0;
 
       &::before {
@@ -47,7 +47,7 @@
         width: 100%;
         height: 128px;
         background-image: url(./assets/pattern1.svg);
-        transform: translateY(50px);
+        transform: translateY(36px);
         z-index: 1;
       }
 
@@ -56,7 +56,7 @@
         width: 100%;
         height: 128px;
         background-image: url(./assets/pattern2.svg);
-        transform: translateY(-50px);
+        transform: translateY(-34px);
         z-index: 1;
       }
 
