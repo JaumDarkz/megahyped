@@ -21,9 +21,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-image: url('./assets/bg.svg');
+    background-image: url('./assets/skulls.webp');
     background-size: 100%;
-    gap: 100px;
+    gap: 40px;
+    filter: brightness(1.1);
 
     .titleContainer {
       font-size: 70px;
@@ -33,18 +34,19 @@
     .socialContainer {
       display: flex;
       gap: 100px;
-      margin-top: -80px;
       align-items: center;
 
       .icon {
         transition: 0.2s;
+        cursor: url('../../../../public/spray.png'), pointer;
+
         &:hover {
           filter: brightness(0.8);
         }
 
         img {
           width: 80%;
-          filter: brightness(10.0);
+          cursor: url('../../../../public/spray.png'), pointer;
         }
       }
     }

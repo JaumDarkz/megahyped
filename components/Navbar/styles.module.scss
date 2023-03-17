@@ -7,6 +7,10 @@
   .logoContainer {
     display: flex;
     align-items: center;
+
+    img {
+      cursor: url('../../public/spray.png'), pointer;
+    }
   }
 
   .navigationContainer {
@@ -16,7 +20,7 @@
     justify-content: center;
 
     .link {
-      cursor: pointer;
+      cursor: url('../../public/spray.png'), pointer;
       transition: 0.4s;
 
       &:hover {
@@ -39,11 +43,15 @@
       height: 40px;
       display: flex;
       align-items: center;
-      cursor: pointer;
+      cursor: url('../../public/spray.png'), pointer;
       padding: 0px 7px;
       border-radius: 3px;
       background: #5A5A5A4D;
       transition: 0.4s;
+
+      img {
+        cursor: url('../../public/spray.png'), pointer;
+      }
 
       &:hover {
         background: #E72A70;
@@ -54,7 +62,7 @@
       height: 40px;
       display: flex;
       align-items: center;
-      cursor: pointer;
+      cursor: url('../../public/spray.png'), pointer;
       padding: 0px 30px;
       border-radius: 3px;
       background: #5A5A5A4D;

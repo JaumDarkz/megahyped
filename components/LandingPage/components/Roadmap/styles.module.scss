@@ -35,8 +35,10 @@
 
   .arrowContainer {
     width: 80%;
+    height: 100px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     margin-top: 80px;
 
     .img {

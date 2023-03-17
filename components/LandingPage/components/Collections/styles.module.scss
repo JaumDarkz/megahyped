@@ -90,8 +90,13 @@
         gap: 25px;
 
         .button {
-          cursor: pointer;
-          padding: 10px 30px;
+          cursor: url('../../../../public/spray.png'), pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 150px;
+
+          padding: 10px 0px;
           background: #5a5a5a40;
           border-radius: 5px;
           font-weight: 500;

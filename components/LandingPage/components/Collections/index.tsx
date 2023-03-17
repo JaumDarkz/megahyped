@@ -101,8 +101,8 @@ const Collections = () => {
         </div>
 
         <div className={styles.mintContainer}>
-          <div style={{fontSize: '20px', marginTop: '80px', textAlign: 'center'}}>
-            {mintedCount ? mintedCount : 'Loading...'} / 3333
+          <div style={{fontFamily: 'Rubik, sans-serif', fontWeight: '500',fontSize: '20px', marginTop: '80px', textAlign: 'center'}}>
+            {mintedCount ? mintedCount : 'Loading...'} / 3333 MINTED
           </div>
 
           <div className={styles.buttonsContainer}>
