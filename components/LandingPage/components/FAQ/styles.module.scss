@@ -28,21 +28,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
-    text-align: center;
-
-    .faq {
-      cursor: pointer;
-      width: 1000px;
-      background: #FFFFFF;
-      color: #000000;
-      padding: 20px;
-    }
-
-    .openFaq {
-      width: 1000px;
-      margin-top: -40px;
-      background: #FFFFFF;
-    }
+    gap: 20px;
   }
 }
