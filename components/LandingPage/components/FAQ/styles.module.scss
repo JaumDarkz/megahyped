@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 150px;
+  background: linear-gradient(180deg, rgba(48, 48, 49, 0) 0%, #1C1C1C 100%);;
+
+  .titleContainer {
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 50px;
+
+    .title {
+      color: #E72A70;
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    .secondaryTitle {
+      font-size: 42px;
+      font-weight: 700;
+    }
+  }
+
+  .faqContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+
+    .faq {
+      cursor: pointer;
+      width: 1000px;
+      background: #FFFFFF;
+      color: #000000;
+      padding: 20px;
+    }
+
+    .openFaq {
+      width: 1000px;
+      margin-top: -40px;
+      background: #FFFFFF;
+    }
+  }
+}
